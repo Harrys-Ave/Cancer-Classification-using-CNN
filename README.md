@@ -22,13 +22,13 @@ The primary goals were:
 
 ## Files Overview
 
-- **Assignment_DL_Harry_Averkiadis.ipynb**: Contains the code for data preprocessing, model training, evaluation, and experimentation.
+- **DL_Harry_Averkiadis.ipynb**: Contains the code for data preprocessing, model training, evaluation, and experimentation.
 - **Deep Learning Report_Harry_Averkiadis.pdf**: Detailed report documenting the problem, methodology, results, and discussion of findings.
 
 ## Methodology
 
 ### 1. Data Preprocessing and Exploratory Data Analysis
-- **Data Source**: LC25000 dataset with 25,000 histopathological images.
+- **Data Source**: LC25000 dataset with 25,000 histopathological images (https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af).
 - **Resizing**: Images were resized to 120x120 pixels for consistency and computational efficiency.
 - **Encoding and Splitting**: Labels were one-hot encoded, and data was split into training (60%), validation (20%), and test (20%) sets.
 - **Class Distribution**: Ensured balanced class distribution across splits to prevent bias in the model.
